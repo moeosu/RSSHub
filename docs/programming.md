@@ -314,6 +314,10 @@ GitHub 官方也提供了一些 RSS:
 
 <Route author="TonyRL" example="/github/wiki/flutter/flutter/Roadmap" path="/github/wiki/:user/:repo/:page?" :paramsDesc="['用户名', '仓库名', '页面 Slug，可在 URL 中找到，留空表示主页']" radar="1" rssbud="1"/>
 
+### 通知
+
+<Route author="zhzy0077" example="/github/notifications" path="/github/notifications" radar="1" rssbud="1" selfhost="1"/>
+
 ## GitLab
 
 ### Explore
@@ -348,7 +352,7 @@ GitHub 官方也提供了一些 RSS:
 
 ### 周刊
 
-<Route author="Weilet" example="/go-weekly" path="/go-weekly"/>
+<Route author="Weilet" example="/studygolang/weekly" path="/studygolang/weekly" radar="1"/>
 
 ### 招聘
 
